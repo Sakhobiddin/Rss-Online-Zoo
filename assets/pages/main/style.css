@@ -64,9 +64,17 @@ header .wrapper {
 .menu_body ul li {
   list-style: none;
 }
+
+.menu_body .active-menu-item {
+  color: orange;
+}
 .menu_body ul li a {
   font-weight: 500;
   margin-right: 58px;
+  text-decoration: none;
+  color: #fff;
+}
+.menu-right h4 a {
   text-decoration: none;
   color: #fff;
 }
@@ -74,12 +82,16 @@ header .wrapper {
   margin-right: 0;
 }
 
+.menu_body ul li a:hover {
+  color: orange;
+}
+
 /* Header section ended */
 
 /* Styles Main section */
 
 .main-section {
-  background-image: url("/assets/images/Panda.png");
+  background-image: url("../../images/Panda.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -446,6 +458,8 @@ header .wrapper {
   font-weight: 500;
   font-size: 14px;
 }
+
+
 
 /* Section feed end pick ended*/
 
